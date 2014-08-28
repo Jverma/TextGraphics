@@ -1,0 +1,31 @@
+setup.py
+TextGraphics/__init__.py
+TextGraphics/communityDetection.py
+TextGraphics/graph.py
+TextGraphics/plotting.py
+TextGraphics/summary.py
+TextGraphics/testCode.py
+TextGraphics/testing.py
+TextGraphics/Analysis/__init__.py
+TextGraphics/Analysis/communityDetection.py
+TextGraphics/Analysis/plotting.py
+TextGraphics/Analysis/properties.py
+TextGraphics/Applications/__init__.py
+TextGraphics/Applications/summary.py
+TextGraphics/Applications/topics.py
+TextGraphics/Data/How does Edward Witten know so much math?.txt
+TextGraphics/Data/Is mathematical physics rigorous with proofs or more like applied mathematics?.txt
+TextGraphics/Data/What is the significance of the Dedekind eta function in theoretical physics?.txt
+TextGraphics/Data/What's Edward Witten's personality like?.txt
+TextGraphics/Data/__init__.py
+TextGraphics/Data/test1.txt
+TextGraphics/Data/test2.txt
+TextGraphics/Stopwords/__init__.py
+TextGraphics/Stopwords/stopwords.py
+TextGraphics/src/__init__.py
+TextGraphics/src/analysis.py
+TextGraphics/src/graph.py
+textgraphics.egg-info/PKG-INFO
+textgraphics.egg-info/SOURCES.txt
+textgraphics.egg-info/dependency_links.txt
+textgraphics.egg-info/top_level.txt

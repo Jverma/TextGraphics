@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: textgraphics
+Version: 0.20
+Summary: A Python Package for Graphical Methods in Text Analysis
+Home-page: UNKNOWN
+Author: Janu Verma
+Author-email: jv367@cornell.edu
+License: MIT
+Description: UNKNOWN
+Keywords: Genomics,Quantitative genetics,java
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Retrieval
+Classifier: Topic :: Scientific/Engineering :: Machine Learning
+Classifier: Topic :: Scientific/Engineering :: Natural Language Processing
