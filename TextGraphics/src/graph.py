@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 	A graphical representation of a text document. 
+# 	A graphical representation of a corpus of text documents. 
 # 	Author - Janu Verma
 # 	jv367@cornell.edu
 # 	@januverma
