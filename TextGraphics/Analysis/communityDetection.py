@@ -9,9 +9,7 @@
 #	@januverma
 
 
-#import sys
-#import os
-#import operator
+
 import networkx as nx
 from src.graph import TextGraph
 
