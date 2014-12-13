@@ -18,6 +18,15 @@ Applications imclude auto summarization based on LexRank and topic modeling.
 4. nltk (for stemming only)
 
 
+
+<a href="https://pypi.python.org/pypi/textgraphics/0.20"><b> Download</b></a>
+
+<b>Install</b>
+pip install textgraphics
+
+
+<a href="http://pythonhosted.org/textgraphics/"><b>Documentation</b></a>
+
 <b>Usage:</b>
 
 <code> 
