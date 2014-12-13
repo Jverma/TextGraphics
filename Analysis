@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>TextGraphics.Analysis package &mdash; TextGraphics  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="TextGraphics  documentation" href="index.html" />
+    <link rel="up" title="TextGraphics package" href="TextGraphics.html" />
+    <link rel="next" title="TextGraphics.Applications package" href="TextGraphics.Applications.html" />
+    <link rel="prev" title="TextGraphics package" href="TextGraphics.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="TextGraphics.Applications.html" title="TextGraphics.Applications package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="TextGraphics.html" title="TextGraphics package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">TextGraphics  documentation</a> &raquo;</li>
+          <li><a href="TextGraphics.html" accesskey="U">TextGraphics package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="textgraphics-analysis-package">
+<h1>TextGraphics.Analysis package<a class="headerlink" href="#textgraphics-analysis-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="textgraphics-analysis-communitydetection-module">
+<h2>TextGraphics.Analysis.communityDetection module<a class="headerlink" href="#textgraphics-analysis-communitydetection-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-TextGraphics.Analysis.plotting">
+<span id="textgraphics-analysis-plotting-module"></span><h2>TextGraphics.Analysis.plotting module<a class="headerlink" href="#module-TextGraphics.Analysis.plotting" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="TextGraphics.Analysis.plotting.Pictures">
+<em class="property">class </em><tt class="descclassname">TextGraphics.Analysis.plotting.</tt><tt class="descname">Pictures</tt><big>(</big><em>graph</em><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/plotting.html#Pictures"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.plotting.Pictures" title="Permalink to this definition">¶</a></dt>
+<dd><p>Analyzing the graph by using drawings.</p>
+<dl class="docutils">
+<dt>Arguments:</dt>
+<dd>graph - a networkx graph or digraph.</dd>
+</dl>
+<dl class="method">
+<dt id="TextGraphics.Analysis.plotting.Pictures.betweennessPlot">
+<tt class="descname">betweennessPlot</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/plotting.html#Pictures.betweennessPlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.plotting.Pictures.betweennessPlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot the betweenness centrality of the nodes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TextGraphics.Analysis.plotting.Pictures.closenessPlot">
+<tt class="descname">closenessPlot</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/plotting.html#Pictures.closenessPlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.plotting.Pictures.closenessPlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot the closeness centrality of the nodes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TextGraphics.Analysis.plotting.Pictures.degreePlot">
+<tt class="descname">degreePlot</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/plotting.html#Pictures.degreePlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.plotting.Pictures.degreePlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot the degrees of the nodes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TextGraphics.Analysis.plotting.Pictures.graphPlot">
+<tt class="descname">graphPlot</tt><big>(</big><em>threshold</em>, <em>labelingByNumbers=False</em><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/plotting.html#Pictures.graphPlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.plotting.Pictures.graphPlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot of the (weighted) graph.</p>
+<dl class="docutils">
+<dt>Arguments:</dt>
+<dd><dl class="first last docutils">
+<dt>threshold - a value of the weight threshold to separate </dt>
+<dd>strong edges from weak ones.</dd>
+</dl>
+</dd>
+<dt>Returns:</dt>
+<dd>a matplotlib plot of the graph.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-TextGraphics.Analysis.properties">
+<span id="textgraphics-analysis-properties-module"></span><h2>TextGraphics.Analysis.properties module<a class="headerlink" href="#module-TextGraphics.Analysis.properties" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="TextGraphics.Analysis.properties.Analysis">
+<em class="property">class </em><tt class="descclassname">TextGraphics.Analysis.properties.</tt><tt class="descname">Analysis</tt><big>(</big><em>graph</em><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/properties.html#Analysis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.properties.Analysis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Some important properties of the graph.</p>
+<dl class="docutils">
+<dt>Arguments:</dt>
+<dd>graph -  A networkx graph or digraph.</dd>
+</dl>
+<dl class="method">
+<dt id="TextGraphics.Analysis.properties.Analysis.ConnectedComponents">
+<tt class="descname">ConnectedComponents</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/properties.html#Analysis.ConnectedComponents"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.properties.Analysis.ConnectedComponents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the connected components of the graph.</p>
+<dl class="docutils">
+<dt>Returns:</dt>
+<dd>a list containing lists of nodes in each connected components.</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="TextGraphics.Analysis.properties.Analysis.centralNodes">
+<tt class="descname">centralNodes</tt><big>(</big><em>nNodes</em>, <em>closeness=False</em>, <em>betweenness=False</em><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/properties.html#Analysis.centralNodes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.properties.Analysis.centralNodes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the most central nodes. It measure how important/central in the graph a node is. 
+We have three metrics for measuring centrality &#8212;</p>
+<dl class="docutils">
+<dt>Degree Centrality <span class="classifier-delimiter">:</span> <span class="classifier">The degree centrality for a node v is the fraction of nodes it is connected to.</span></dt>
+<dd>This is the default measure.</dd>
+<dt>Closeness Centrality <span class="classifier-delimiter">:</span> <span class="classifier">Closeness centrality of a node u is the reciprocal of the sum of the </span></dt>
+<dd>shortest path distances from u to all n−1 other nodes. 
+(<a class="reference external" href="http://en.wikipedia.org/wiki/Centrality#Closeness_centrality">http://en.wikipedia.org/wiki/Centrality#Closeness_centrality</a>)</dd>
+<dt>Betweenness Centrality <span class="classifier-delimiter">:</span> <span class="classifier">Betweenness centrality of a node v is the sum of the fraction of all-pairs </span></dt>
+<dd>shortest paths that pass through v. 
+(<a class="reference external" href="http://en.wikipedia.org/wiki/Betweenness_centrality">http://en.wikipedia.org/wiki/Betweenness_centrality</a>)</dd>
+<dt>Arguments:</dt>
+<dd>nNodes - number of most central nodes to be retrieved. 
+closeness : If True, the closeness centrality is evaluated. 
+betweenness : If True, the betweenness centrality is evaluated.</dd>
+<dt>Returns:</dt>
+<dd>A list of most central nodes.</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="TextGraphics.Analysis.properties.Analysis.nodeInConnectedComponent">
+<tt class="descname">nodeInConnectedComponent</tt><big>(</big><em>node</em><big>)</big><a class="reference internal" href="_modules/TextGraphics/Analysis/properties.html#Analysis.nodeInConnectedComponent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TextGraphics.Analysis.properties.Analysis.nodeInConnectedComponent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Place a node in a connected component of the graph.</p>
+<dl class="docutils">
+<dt>Arguments:</dt>
+<dd>node - the node whose connected component is desired.</dd>
+<dt>Returns:</dt>
+<dd>A connected subgraph of the original graph which contains the node.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-TextGraphics.Analysis">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-TextGraphics.Analysis" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">TextGraphics.Analysis package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#textgraphics-analysis-communitydetection-module">TextGraphics.Analysis.communityDetection module</a></li>
+<li><a class="reference internal" href="#module-TextGraphics.Analysis.plotting">TextGraphics.Analysis.plotting module</a></li>
+<li><a class="reference internal" href="#module-TextGraphics.Analysis.properties">TextGraphics.Analysis.properties module</a></li>
+<li><a class="reference internal" href="#module-TextGraphics.Analysis">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="TextGraphics.html"
+                        title="previous chapter">TextGraphics package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="TextGraphics.Applications.html"
+                        title="next chapter">TextGraphics.Applications package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/TextGraphics.Analysis.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="TextGraphics.Applications.html" title="TextGraphics.Applications package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="TextGraphics.html" title="TextGraphics package"
+             >previous</a> |</li>
+        <li><a href="index.html">TextGraphics  documentation</a> &raquo;</li>
+          <li><a href="TextGraphics.html" >TextGraphics package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Author.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
