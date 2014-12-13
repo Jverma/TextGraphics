@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Textgraphics by Jverma</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Textgraphics</h1>
+        <p>Graphical techniques for text mining. </p>
+
+        <p class="view"><a href="https://github.com/Jverma/TextGraphics">View the Project on GitHub <small>Jverma/TextGraphics</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Jverma/TextGraphics/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Jverma/TextGraphics/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Jverma/TextGraphics">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>TextGraphics is a python module for graphical methods in text mining. It can create two types of graphs from a corpus of text files. </p>
+
+<ol>
+<li>sentenceGraph - nodes are sentences in the corpus and edges are defined between two nodes based on the cosine similarity of the normalized word frequency vectors of the sentences represented by the nodes. </li>
+<li>keywordGraph - nodes are keywords in the corpus and edges are defined between two nodes based on the co-occurances of the keywords represented by the nodes. </li>
+</ol>
+
+<p>We choose a threshold for cosine similarity or co-occurance count. </p>
+
+<p>Analysis package contains codes to study basic properties of the graphs and methods to plot the graphs. 
+Also there is an implementation of Girvan-Newman algorithm for extracting the communities in the graph. </p>
+
+<p>Applications imclude auto summarization based on LexRank and topic modeling. </p>
+
+<p><b>Dependencies:</b></p>
+
+<ol>
+<li>numpy</li>
+<li>networkx</li>
+<li>matplotlib</li>
+<li>nltk (for stemming only)</li>
+</ol>
+
+<p><b>Usage:</b></p>
+
+<p><code> 
+from TextGraphics.src.graph import TextGraph</code></p>
+
+<p><code>
+g = TextGraph(corpus)</code></p>
+
+<p><code>
+senGraph = g.sentenceGraph()</code></p>
+
+<p><code>
+keyGraph = g.keywordGraph()</code></p>
+
+<p><code>
+from TextGraphics.Applications.summary import LexRank</code></p>
+
+<p><code>
+lR = LexRank(corpus)</code></p>
+
+<p><code>
+lR.summary()</code></p>
+
+<p>See testCode.py for usage. </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Jverma">Jverma</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
