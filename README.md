@@ -29,26 +29,14 @@ pip install textgraphics
 
 <b>Usage:</b>
 
-<code> 
-from TextGraphics.src.graph import TextGraph
-
-<code>
-g = TextGraph(corpus)
-
-<code>
-senGraph = g.sentenceGraph()
-
-<code>
-keyGraph = g.keywordGraph()
-
-<code>
-from TextGraphics.Applications.summary import LexRank
-
-<code>
-lR = LexRank(corpus)
-
-<code>
-lR.summary()
+    from TextGraphics.src.graph import TextGraph
+    g = TextGraph(corpus)
+    senGraph = g.sentenceGraph()
+    keyGraph = g.keywordGraph()
+    
+    from TextGraphics.Applications.summary import LexRank
+    lR = LexRank(corpus)
+    lR.summary()
 
 See testCode.py for usage. 
 
