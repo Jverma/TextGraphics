@@ -6,7 +6,7 @@ import networkx as nx
 import operator
 
 
-class Analysis:
+class Properties:
 	"""
 	Some important properties of the graph. 
 
